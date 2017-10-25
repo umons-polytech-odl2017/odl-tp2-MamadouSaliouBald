@@ -1,5 +1,6 @@
 package exercise2;
 
-public interface Payable {
-	int computeSalary();
+public interface Payable
+{
+	public abstract int computeSalary();
 }
