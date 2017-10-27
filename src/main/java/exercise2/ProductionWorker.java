@@ -15,13 +15,13 @@ public class ProductionWorker implements Payable
 
 
 
-	public void produceOnePiece()
+public void produceOnePiece()
 	{
-		piece++;
+	piece++;
 	}
 
-	public int computeSalary()
+public int computeSalary()
 	{
-		return  retibutionParPiece*piece;
+	return  retibutionParPiece*piece;
 	}
-}
+	}
